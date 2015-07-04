@@ -10,6 +10,7 @@
  * Colors
  * 
  * Orange   #f5ab35 (background, text selection, hover links)
+ * Yellow   #fec606
  * Greens   #c0b54b (links)
  *          #c6cb6d (background)
  *          #d8d881 (background)
@@ -165,6 +166,13 @@ p {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.site-title {
+    color: #c0b54b;
+    font-family: Merriweather, Georgia, Times, serif;
+    font-size: 3em;
+    text-shadow: 4px 4px 0 #fec606, 8px 8px 0 #f5ab35;
+}
 
 .site-content {
     background-color: #d8d881;
