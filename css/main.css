@@ -94,8 +94,27 @@ video {
     vertical-align: middle;
 }
 
+figure {
+    margin: 0;
+    position: relative;
+}
+
+figcaption {
+    color: #fff;
+    font-size: 0.75em;
+    font-style: italic;
+    padding: 0.5em 0.75em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 img {
     max-width: 100%;
+}
+
+figure img {
+    width: 100%;
 }
 
 /*
