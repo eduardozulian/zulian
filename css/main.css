@@ -111,10 +111,12 @@ figcaption {
 }
 
 img {
+    height: auto;
     max-width: 100%;
 }
 
 figure img {
+    height: auto;
     width: 100%;
 }
 
