@@ -184,12 +184,13 @@ p {
         );
 }
 
-.panel p {
+.main {
     color: #333;
+    padding: 1.5em;
 }
 
-.main {
-    padding: 1.5em;
+.bio--en {
+    display: none;
 }
 
 .text--small {
@@ -308,12 +309,9 @@ p {
         padding: 1.5em;
     }
 
-    .panel {
+    .main {
         font-size: 1.125em;
         max-width: 32em;
-    }
-
-    .main {
         padding: 0;
     }
 
